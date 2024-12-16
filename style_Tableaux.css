@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background: url(Images/wallpaper2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.h1 .menu {
+    position: fixed;
+    text-decoration: none;
+    top: 0%;
+    right: 5%;
+    height: 10%;
+    font-size: 16px;
+    color: rgb(165, 93, 42);
+    font-weight: 400;
+    align-items: center;
+    background: transparent;
+    display: flex;
+}
+
+.h1 .logo {
+    position: fixed;
+    text-decoration: none;
+    top: 0%;
+    left: 5%;
+    height: 10%;
+    font-size: 34px;
+    color: rgb(165, 93, 42);
+    font-weight: 700;
+    align-items: center;
+    background: transparent;
+    display: flex;
+}
+
+.h3 {
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    align-items: center;
+    background: transparent;
+    color: grey;
+}
+
